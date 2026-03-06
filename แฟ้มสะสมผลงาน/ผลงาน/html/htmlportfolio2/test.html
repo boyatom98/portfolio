@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ฟอร์มพื้นฐาน</title>
+    <style>
+        body { 
+            font-family: sans-serif; 
+            padding: 50px; 
+            background-color: #f0f0f0; 
+        }
+        form {
+            background-color: white;
+            width: 300px;          
+            margin: auto;         
+            padding: 20px;      
+            border: 1px solid #ccc; 
+        }
+
+        input, select, textarea {
+            width: 100%;            
+            margin-bottom: 10px;    
+        }
+
+        button {
+            width: 100%;
+            background-color: black;
+            color: white;
+            padding: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <form>
+        <h2 style="text-align: center;">ลงทะเบียน</h2>
+
+        <label>ชื่อ-นามสกุล:</label>
+        <input type="text" name="fullname">
+
+        <label>อีเมล:</label>
+        <input type="email" name="email">
+
+        <label>ตำแหน่ง:</label>
+        <select name="position">
+            <option>Web Designer</option>
+            <option>Programmer</option>
+        </select>
+
+        <label>แนะนำตัว:</label>
+        <textarea rows="3" name="message"></textarea>
+
+        <button type="submit">ส่งข้อมูล</button>
+    </form>
+
+</body>
+</html>

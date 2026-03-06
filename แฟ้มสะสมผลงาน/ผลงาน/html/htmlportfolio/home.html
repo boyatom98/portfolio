@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>Basic HTML & CSS</title>
+    
+    <style>
+        body {
+            background-color: #f0f2f5; 
+            font-family: Arial, sans-serif; 
+            display: flex;
+            justify-content: center; 
+            align-items: center;     
+            height: 100vh;           
+            margin: 0;
+        }
+
+        .card {
+            background-color: white; 
+            width: 300px;            
+            padding: 20px;           
+            border-radius: 15px;     
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center;      
+        }
+
+        h1 {
+            color: #2c3e50;
+            font-size: 24px;
+        }
+        p {
+            color: #666;
+            line-height: 1.6; 
+        }
+        .btn {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <img src="me.jpg" alt="รูปโปรไฟล์" style="border-radius: 50%;">
+        
+        <h1>สวัสดีครับ!</h1>
+        <p>ผมชื่อ <strong>นายจักริน ใจมาวิลาศ</strong><br>
+        ชอบเขียนโค้ดและมีพื้นฐาน HTML<br>
+        และกำลังศึกษา CSS<br>
+        เพื่อเป็น Web Developer ครับ</p>
+        
+        <a href="#" class="btn">ติดต่อฉัน</a>
+    </div>
+
+</body>
+</html>
